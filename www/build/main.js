@@ -34,7 +34,7 @@ var ChatPage = /** @class */ (function () {
     };
     ChatPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-chat',template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/chat/chat.html"*/'<!--\n  Generated template for the ChatPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>chat</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/chat/chat.html"*/,
+            selector: 'page-chat',template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/chat/chat.html"*/'<!--\n  Generated template for the ChatPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>chat</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/chat/chat.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], ChatPage);
@@ -122,7 +122,7 @@ var TabsPage = /** @class */ (function () {
         this.tab5Root = __WEBPACK_IMPORTED_MODULE_1__about_about__["a" /* AboutPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle= "Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Resources" tabIcon="star"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Create" tabIcon="add-circle"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="Chat" tabIcon="mail"></ion-tab>\n  <ion-tab [root]="tab5Root" tabTitle="Profile" tabIcon="contact"></ion-tab>\n\n\n</ion-tabs>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle= "Home" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Resources" tabIcon="star"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Create" tabIcon="add-circle"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="Chat" tabIcon="mail"></ion-tab>\n  <ion-tab [root]="tab5Root" tabTitle="Profile" tabIcon="contact"></ion-tab>\n\n\n</ion-tabs>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -157,7 +157,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Resources\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Resources\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], AboutPage);
@@ -192,7 +192,7 @@ var CreatePage = /** @class */ (function () {
     }
     CreatePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-create',template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/create/create.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Create\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/create/create.html"*/
+            selector: 'page-create',template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/create/create.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Create\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us on Twitter</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n      @ionicframework\n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/create/create.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], CreatePage);
@@ -227,7 +227,7 @@ var ResourcesPage = /** @class */ (function () {
     }
     ResourcesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-resources',template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/resources/resources.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Resources</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Welcome to Ionic!</h2>\n  <p>\n    This starter project comes with simple tabs-based layout for apps\n    that are going to primarily use a Tabbed UI.\n  </p>\n  <p>\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n    update any existing page or create new pages.\n  </p>\n</ion-content>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/resources/resources.html"*/
+            selector: 'page-resources',template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/resources/resources.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Resources</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>Welcome to Ionic!</h2>\n  <p>\n    This starter project comes with simple tabs-based layout for apps\n    that are going to primarily use a Tabbed UI.\n  </p>\n  <p>\n    Take a look at the <code>src/pages/</code> directory to add or change tabs,\n    update any existing page or create new pages.\n  </p>\n</ion-content>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/resources/resources.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], ResourcesPage);
@@ -272,7 +272,7 @@ var SwipePage = /** @class */ (function () {
     };
     SwipePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-swipe',template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/swipe/swipe.html"*/'<!--\n  Generated template for the SwipePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>swipe</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/swipe/swipe.html"*/,
+            selector: 'page-swipe',template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/swipe/swipe.html"*/'<!--\n  Generated template for the SwipePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>swipe</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/swipe/swipe.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], SwipePage);
@@ -348,7 +348,7 @@ var RegisterPage = /** @class */ (function () {
     };
     RegisterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-register',template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/register/register.html"*/'<ion-content padding>\n  <ion-list padding>\n    <ion-list-header>Create a new account</ion-list-header>\n    <ion-item>\n      <ion-label stacked>Name</ion-label>\n      <ion-input [(ngModel)]="name"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label stacked>Email</ion-label>\n      <ion-input [(ngModel)]="email"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label stacked>Password</ion-label>\n      <ion-input type="password" [(ngModel)]="password"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label stacked >Confirm Password</ion-label>\n      <ion-input type="password" [(ngModel)]="cpassword"></ion-input>\n    </ion-item>\n  </ion-list>\n\n  <button ion-button clear full (click)="register()">Register</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/register/register.html"*/,
+            selector: 'page-register',template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/register/register.html"*/'<ion-content padding>\n  <ion-list padding>\n    <ion-list-header>Create a new account</ion-list-header>\n    <ion-item>\n      <ion-label stacked>Name</ion-label>\n      <ion-input [(ngModel)]="name"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label stacked>Email</ion-label>\n      <ion-input [(ngModel)]="email"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label stacked>Password</ion-label>\n      <ion-input type="password" [(ngModel)]="password"></ion-input>\n    </ion-item>\n    <ion-item>\n      <ion-label stacked >Confirm Password</ion-label>\n      <ion-input type="password" [(ngModel)]="cpassword"></ion-input>\n    </ion-item>\n  </ion-list>\n\n  <button ion-button clear full (click)="register()">Register</button>\n\n</ion-content>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/register/register.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] /*, public http: Http, public authService: AuthServ*/])
     ], RegisterPage);
@@ -497,7 +497,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -573,7 +573,7 @@ var StartpagePage = /** @class */ (function () {
     };
     StartpagePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-startpage',template:/*ion-inline-start:"/Users/ReneeYang/Documents/mental-health-app/src/pages/startpage/startpage.html"*/'<ion-content padding>\n\n  <img src="../../assets/imgs/brain.png" alt="Neuron Logo" class="center" style="width:128px;height:128px;">\n  <h1>NEURON</h1>\n\n  <ion-item>\n    <ion-label stacked>Email</ion-label>\n    <ion-input [(ngModel)]="email"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label stacked>Password</ion-label>\n    <ion-input type="password" [(ngModel)]="password"></ion-input>\n  </ion-item>\n\n<br>\n<button ion-button clear full (click)="login()">Login</button>\n<br>\n<button ion-button clear full (click)="register()">Register</button>\n</ion-content>\n'/*ion-inline-end:"/Users/ReneeYang/Documents/mental-health-app/src/pages/startpage/startpage.html"*/,
+            selector: 'page-startpage',template:/*ion-inline-start:"/Users/sampearlstein/dev/neuron/src/pages/startpage/startpage.html"*/'<ion-content padding>\n\n  <img src="../../assets/imgs/brain.png" alt="Neuron Logo" class="center" style="width:128px;height:128px;">\n  <h1>NEURON</h1>\n\n  <ion-item>\n    <ion-label stacked>Email</ion-label>\n    <ion-input [(ngModel)]="email"></ion-input>\n  </ion-item>\n  <ion-item>\n    <ion-label stacked>Password</ion-label>\n    <ion-input type="password" [(ngModel)]="password"></ion-input>\n  </ion-item>\n\n<br>\n<button ion-button clear full (click)="login()">Login</button>\n<br>\n<button ion-button clear full (click)="register()">Register</button>\n</ion-content>\n'/*ion-inline-end:"/Users/sampearlstein/dev/neuron/src/pages/startpage/startpage.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] /*, public http: Http, public authService: AuthServ*/])
     ], StartpagePage);
